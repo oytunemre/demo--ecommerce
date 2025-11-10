@@ -12,7 +12,7 @@ public String surname;
 protected String email;
 private String password;
 
-protected String address;
+protected String adress;
 
 public int getId()
 {
@@ -22,7 +22,10 @@ public int getId()
 
 public void setId(int id)
 {
-    this.Id = id;
+        id = 0;
+        id++;
+        this.Id = id;
+        
 }
 
 public String getName()
@@ -59,14 +62,12 @@ public void setPassword(String password)
 {
     this.password = password;
 }
-public String getAddress()
+public String getAdress()
 {
-    return address;
+    return adress;
 }
-public void setAddress(String address)
+public void setAdress(String address)
 {
-    this.address = address;
+    this.adress = address;
 }
 }
-
-    

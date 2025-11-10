@@ -12,3 +12,4 @@
 /Users/oytunemre/Projects/web-projects/webdemo/MyApp/obj/Debug/net9.0/MyApp.pdb
 /Users/oytunemre/Projects/web-projects/webdemo/MyApp/obj/Debug/net9.0/MyApp.genruntimeconfig.cache
 /Users/oytunemre/Projects/web-projects/webdemo/MyApp/obj/Debug/net9.0/ref/MyApp.dll
+/Users/oytunemre/Projects/web-projects/webdemo/MyApp/obj/Debug/net9.0/MyApp.sourcelink.json
