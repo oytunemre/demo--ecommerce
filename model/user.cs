@@ -1,73 +1,21 @@
 using System.ComponentModel.DataAnnotations;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 
-public class user
-{
-   
-public int Id;
+public class userAccountModel{
 
-public String name;
-public String surname;
+    public int Id { get; set; }
 
+    public String username { get; set; }
 
-protected String email;
-private String password;
+    public String name { get; set; }
+    public String surname { get; set; }
 
-protected String adress;
+    protected String email { get; set; }
+    private String password { get; set; }
 
-public int getId()
-{
-    return Id;
+    protected String adress { get; set; }
+    
+    protected DateTime createdAt{ get; set; }
+    protected DateTime updatedAt { get; set; }
 
-}
-
-public void setId(int id)
-{
-        id = 0;
-        id++;
-        this.Id = id;
-        
-}
-
-public String getName()
-{
-    return name;
-}
-
-public void setName(String name)
-{
-    this.name = name;
-}
-public String getSurname()
-{
-    return surname;
-}
-public void setSurname(String surname)
-{
-    this.surname = surname;
-}
-public String getEmail()
-
-{
-    return email;
-}
-public void setEmail(String email)
-{
-    this.email = email;
-}
-public String getPassword()
-{
-    return password;
-}                            
-public void setPassword(String password)
-{
-    this.password = password;
-}
-public String getAdress()
-{
-    return adress;
-}
-public void setAdress(String address)
-{
-    this.adress = address;
-}
 }
